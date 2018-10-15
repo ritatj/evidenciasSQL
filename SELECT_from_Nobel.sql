@@ -1,4 +1,3 @@
-# SELECT from Nobel
 
 1
 SELECT yr, subject, winner
