@@ -1,8 +1,10 @@
 1
 SELECT population FROM world
   WHERE name = 'Germany’
+
 SELECT name, population FROM world
   WHERE name IN ('Sweden', 'Norway', 'Denmark');
+
 SELECT name, area FROM world
   WHERE area BETWEEN 200000 AND 250000
 
@@ -39,10 +41,6 @@ SELECT name, population,area
   WHERE
   (population>250000000 OR area>3000000)
   AND NOT(population>250000000 AND area>3000000)
-
-
-
-
 
 9
 SELECT name, ROUND(population/1000000,2),
